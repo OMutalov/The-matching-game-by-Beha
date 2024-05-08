@@ -67,6 +67,10 @@ ol {
     bottom: 5vh;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @keyframes moveUpDown {
     0% {
         bottom: -5vh;
@@ -94,3 +98,4 @@ ol {
         grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); /* Responsive grid layout */
     }
 }
+
