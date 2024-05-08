@@ -67,6 +67,10 @@ ol {
     bottom: 5vh;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @keyframes moveUpDown {
     0% {
         bottom: -5vh;
